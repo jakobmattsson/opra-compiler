@@ -1,6 +1,6 @@
 {
   "name": "opra-compiler",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Compiles an opra-project to a set of static files",
   "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
   "main": "./lib/compiler.js",
