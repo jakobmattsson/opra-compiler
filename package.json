@@ -7,6 +7,10 @@
   "bin": {
     "opra-compiler": "./bin/opra-compiler.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakobmattsson/opra-compiler.git"
+  },
   "engines": {
     "node": ">= 0.8 < 0.12"
   },
