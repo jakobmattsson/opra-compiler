@@ -1,3 +1,4 @@
+fs = require 'fs'
 opra = require 'opra'
 
 exports.run = ->
