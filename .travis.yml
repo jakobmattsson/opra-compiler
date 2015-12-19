@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '0.10'
+- '0.12'
+- '4.0'
+- '4.1'
+deploy:
+  provider: npm
+  email: jakob.mattsson@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: r/NNfDFPVdwLTHg/MhsLAk1JeYVEQ86vBU6bEcuuHeFQ2N9KDWvnAveUltrR1nU+wUOgAlTf49dAr6KHihnJ1Ahk1dfrzrXFsJxYJOcbyZYst9DZLSOuxXfIGwW80447VV3qqXagCHBad5cZcSQxyMp2y42bRfY0yp3JIzTEIi4=
+  on:
+    tags: true
+    repo: jakobmattsson/opra-compiler
+notifications:
+  email:
+    on_success: never
+    on_failure: always
